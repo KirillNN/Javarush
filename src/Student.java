@@ -1,7 +1,7 @@
 public class Student {
     public String name;
 
-    Student(String value) {
-        name = value;
+    public Student(String name) {
+        this.name = name;
     }
 }
