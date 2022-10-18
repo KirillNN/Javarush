@@ -100,9 +100,30 @@ public class Solution {
 
 }
 */
+/*
 public class Solution {
     public static void main(String[] args) {
         Outer.Inner x = new Outer().new Inner();
         Outer.Nested y = new Outer.Nested();
+    }
+}
+ */
+/*
+public class Solution {
+    public static int salary;
+
+    public static void add(int increase) {
+        Solution.salary += increase;
+    }
+    public static void main(String[] args) {
+        add(100500);
+        System.out.println(salary);
+    }
+}
+ */
+public class Solution {
+    public static void main(String[] args) {
+        Student student = new Student("Амиго");
+        System.out.println(student.name);
     }
 }
